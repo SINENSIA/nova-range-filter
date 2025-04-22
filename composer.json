@@ -1,0 +1,39 @@
+{
+    "name": "sinensia/nova-range-filter",
+    "description": "A reusable range filter component for Laravel Nova with input masking and formatting.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "filter",
+        "range",
+        "nova-component"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sinensia",
+            "homepage": "https://sinensia.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/nova": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sinensia\\NovaRangeFilter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sinensia\\NovaRangeFilter\\FilterServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
